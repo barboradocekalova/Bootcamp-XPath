@@ -1,0 +1,11 @@
+Pomocí jakého xpath získáme názvy knih, které jsou v kategorii "web" ?
+//library/book[@category = "web"]/title
+
+Xpath, který vrátí všechny ceny, které jsou větší než 35
+//library/book[price > 35]/price
+
+Jaký Xpath použiju, pokud bych chtěl, aby výsledek byl: "Kurt Cagle"
+//library/book[title = "XQuery Kick Start"]/author[3]
+
+Jak získám počet knih z roku 2005?
+count(/library/book[year = 2005])
